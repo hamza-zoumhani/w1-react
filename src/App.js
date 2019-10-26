@@ -1,6 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Button from './components/button'
+
+const data = {
+  status:"success",
+  message:"The click was successful"
+
+}
 
 function App() {
   return (
@@ -10,6 +17,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+
+        <Button data={data}></Button>
+
         <a
           className="App-link"
           href="https://reactjs.org"
