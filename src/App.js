@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Button from './components/button'
+import List from './components/list'
 
 const data = {
   status:"success",
@@ -19,6 +20,7 @@ function App() {
         </p>
 
         <Button data={data}></Button>
+        <List></List>
 
         <a
           className="App-link"
